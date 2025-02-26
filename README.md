@@ -27,12 +27,13 @@ The Solana Trading Bot helps you trade tokens on the Pump.fun on Solana blockcha
 ## Installation
 
 1. **Clone the repository**:
-   \`\`\`
-   git clone [https://github.com/yourusername/solana-trading-bot.git](https://github.com/TreeCityWes/Pump-Fun-Trading-Bot-Solana.git)
-   cd solana-trading-bot
-   \`\`\`
 
-2. **Install dependencies**:
+   git clone [https://github.com/yourusername/solana-trading-bot.git](https://github.com/TreeCityWes/Pump-Fun-Trading-Bot-Solana.git)
+
+   cd solana-trading-bot
+   
+
+3. **Install dependencies**:
    
    `npm install dotenv axios @solana/web3.js @solana/spl-token selenium-webdriver fs bs58 blessed blessed-contrib`
 
