@@ -56,14 +56,14 @@ The Solana Trading Bot helps you trade tokens on the Pump.fun on Solana blockcha
 ## Usage
 
 - **Run the trading bot**:
-  \`\`\`
+
   `node script.mjs`
-  \`\`\`
+
 
 - **Sell all SPL tokens**:
-  \`\`\`
+
   `node sell.js`
-  \`\`\`
+
 
 ## Donations
 
