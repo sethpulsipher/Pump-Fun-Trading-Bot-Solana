@@ -33,9 +33,10 @@ The Solana Trading Bot helps you trade tokens on the Pump.fun on Solana blockcha
    \`\`\`
 
 2. **Install dependencies**:
+   
    `npm install dotenv axios @solana/web3.js @solana/spl-token selenium-webdriver fs bs58 blessed blessed-contrib`
 
-3. **Set up your environment variables**:
+4. **Set up your environment variables**:
    Create a .env file in the root directory and add the following:
   
    ```env
@@ -45,7 +46,7 @@ The Solana Trading Bot helps you trade tokens on the Pump.fun on Solana blockcha
    SELL_BONDING_CURVE_PROGRESS=15
   
 
-4. **Configure Solana CLI**:
+5. **Configure Solana CLI**:
    \`\`\`
    `solana config set --url https://api.mainnet-beta.solana.com`
    `solana config set --keypair /path/to/your/solana/wallet.json`
