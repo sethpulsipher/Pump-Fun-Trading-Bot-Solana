@@ -27,14 +27,14 @@ The Solana Trading Bot helps you trade tokens on the Pump.fun on Solana blockcha
 ## Installation
 
 1. **Clone the repository**:
-   \`\`\`sh
-   git clone [https://github.com/yourusername/solana-trading-bot.git](https://github.com/TreeCityWes/Pump-Fun-Trading-Bot-Solana.git)
-   cd solana-trading-bot
+   \`\`\`
+   `git clone [https://github.com/yourusername/solana-trading-bot.git](https://github.com/TreeCityWes/Pump-Fun-Trading-Bot-Solana.git)
+   cd solana-trading-bot`
    \`\`\`
 
 2. **Install dependencies**:
    \`\`\`sh
-   npm install dotenv axios @solana/web3.js @solana/spl-token selenium-webdriver fs bs58 blessed blessed-contrib
+   `npm install dotenv axios @solana/web3.js @solana/spl-token selenium-webdriver fs bs58 blessed blessed-contrib`
    \`\`\`
 
 3. **Set up your environment variables**:
@@ -48,21 +48,21 @@ The Solana Trading Bot helps you trade tokens on the Pump.fun on Solana blockcha
   
 
 4. **Configure Solana CLI**:
-   \`\`\`sh
-   solana config set --url https://api.mainnet-beta.solana.com
-   solana config set --keypair /path/to/your/solana/wallet.json
+   \`\`\`
+   `solana config set --url https://api.mainnet-beta.solana.com`
+   `solana config set --keypair /path/to/your/solana/wallet.json`
    \`\`\`
 
 ## Usage
 
 - **Run the trading bot**:
-  \`\`\`sh
-  node script.mjs
+  \`\`\`
+  `node script.mjs`
   \`\`\`
 
 - **Sell all SPL tokens**:
-  \`\`\`sh
-  node sell.js
+  \`\`\`
+  `node sell.js`
   \`\`\`
 
 ## Donations
