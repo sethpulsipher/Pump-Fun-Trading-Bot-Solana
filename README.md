@@ -49,7 +49,7 @@ The Solana Trading Bot helps you trade tokens on the Pump.fun on Solana blockcha
 
 5. **Configure Solana CLI**:
    
-   `solana config set --url https://api.mainnet-beta.solana.com`
+   `solana config set -um`
    
    `solana config set --keypair /path/to/your/solana/wallet.json`
 
